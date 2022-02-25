@@ -14,4 +14,4 @@ npm run api
 ```
 
 ## Customize configuration
-Modify [`config.json`]((https://github.com/quentinMlvl/wcs-randomdraw/blob/master/back/config/config.json) in order to connect the API with the database.
+Modify [`config.json`](https://github.com/quentinMlvl/wcs-randomdraw/blob/master/back/config/config.json) in order to connect the API with the database.
