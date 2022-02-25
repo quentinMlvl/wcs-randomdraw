@@ -1,0 +1,52 @@
+$orange : #F18701
+$purple : #7678ED 
+$yellow : #F7B801
+$screen-bp: 960px
+
+
+
+*
+  box-sizing: border-box
+
+html, body
+  margin: 0
+
+h2 
+  background-color: #D3D3D3
+  border: .3rem dotted black
+  padding: .4rem
+  text-align: center
+
+
+button, input[type="submit"]
+  color: white
+  background-color: $purple
+  border: none
+  border-radius: .5rem
+  padding: .5rem .7rem
+  text-align: center
+  font-weight: bold
+
+  &:hover,
+  &:active
+    background-color: darken($purple, 10)
+    cursor: pointer
+
+
+  &:disabled
+    background-color: lighten($purple, 10)
+    &:hover,
+    &:active
+      cursor: not-allowed
+    
+table
+  border: 3px solid black!important
+  border-collapse: collapse
+  text-align: center
+  padding: .2rem
+  width: 100%
+
+  td, th
+    padding: .75rem 0
+    border: 2px dotted black
+    
